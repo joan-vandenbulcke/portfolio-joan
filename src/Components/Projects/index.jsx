@@ -17,8 +17,8 @@ const Projects = () => (
   <section id='projects' className="projects">
     <div className='projects-header'>
       <h2 className="projects-title"><span className='numbers-span'>03.</span> Projects</h2>
-      <p>Découvrez les projets sur lesquels j'ai travaillé ces dernières semaines et apprenez-en plus sur mon parcours en allant les visiter !</p>
-      <p className="projects-description">N'hésitez pas à vous créer un compte sur le site EVAS et à tester les fonctionnalités de création d'une association ou d'un projet et toute autre fonctionnalité ajoutée sur la plateforme. </p>
+      <p>Discover the projects I have been working on in recent weeks and learn more about my background by visiting them !</p>
+      <p className="projects-description">Don't hesitate to create an account on the EVAS website and test the features for creating an association or a project, as well as any other functionality added to the platform.</p>
     </div>
     <div className='cards-container'>
       <div className="card-wrapper">
