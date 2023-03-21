@@ -34,7 +34,7 @@ const ContactForm = () => {
         </div>
         <div className='form-item'>
           <label><span className='form-span'>*</span> Email</label>
-          <input placeholder='votremail@gmail.com' required type="email" name="from_email" />
+          <input placeholder='youremail@gmail.com' required type="email" name="from_email" />
         </div>
         <div className='form-item'>
           <label><span className='form-span'>*</span> Phone</label>
