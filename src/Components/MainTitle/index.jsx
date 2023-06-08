@@ -5,7 +5,7 @@ const MainTitle = () => (
   <div className="title">
     <p className="title-hello span">Hello, my name is</p>
     <h1 className="title-name">Joan Vandenbulcke.</h1>
-    <h2 className="title-catch">I am a JavaScript web developer.</h2>
+    <h2 className="title-catch">I am a web developer.</h2>
     <p className="title-intro">Discover my portfolio through my professional experiences, my education, and my projects ! More information to come, stay tuned !</p>
     <a href="#projects">
       <button className="title-button">
