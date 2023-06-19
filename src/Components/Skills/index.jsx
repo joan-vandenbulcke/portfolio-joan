@@ -22,6 +22,7 @@ import { GoSettings } from "react-icons/go";
 import { DiScrum } from "react-icons/di";
 import { BsWordpress } from "react-icons/bs";
 import { FaListOl } from "react-icons/fa";
+import { SiNextdotjs } from "react-icons/si";
 
 const Skills = () => {
 
@@ -90,6 +91,10 @@ const Skills = () => {
       </div>
       {/* 3RD ROW */}
       <div className='skills-container'>
+        <div className='skill skill-next'>
+          <SiNextdotjs className='skill-icon skill-icon__next' />
+          <p className='skill-name'>Next.js</p>
+        </div>
         <div className='skill skill-scss'>
           <FaSass className='skill-icon skill-icon__scss' />
           <p className='skill-name'>SCSS</p>
