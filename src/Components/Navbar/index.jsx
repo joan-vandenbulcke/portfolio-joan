@@ -120,9 +120,9 @@ const Navbar = () => {
                 <span className='navbar-span'>6.  </span>Contact
               </ScrollLink>
             </li>
-            <a className='navbar-display__pdf' href="https://drive.google.com/u/0/uc?id=1mszvKMwc-64vEaAg3WSXbMlepWqyNrP9&export=download">
+            {/* <a className='navbar-display__pdf' href="https://drive.google.com/u/0/uc?id=1mszvKMwc-64vEaAg3WSXbMlepWqyNrP9&export=download">
               <button className="menu-button">CV / Resume <ArrowCircleDownRoundedIcon className='navbar-download__icon icon' /></button>
-            </a>
+            </a> */}
           </ol>
           <button onClick={handleShowLinks} className='navbar-burger'>
             <span className='burger-bar'></span>
