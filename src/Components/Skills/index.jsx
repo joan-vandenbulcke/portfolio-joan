@@ -23,6 +23,7 @@ import { DiScrum } from "react-icons/di";
 import { BsWordpress } from "react-icons/bs";
 import { FaListOl } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 
 const Skills = () => {
 
@@ -51,27 +52,36 @@ const Skills = () => {
       </div>
       {/* SECOND LANGUAGES */}
       <h3 className='languages-title'>Frameworks/librairies and other development technos</h3>
-      {/* FIRST ROW */}
+      {/* ROW */}
       <div className='skills-container'>
+        <div className='skill skill-react'>
+          <SiTypescript className='skill-icon skill-icon__typescript' />
+          <p className='skill-name'>Typescript</p>
+        </div>
         <div className='skill skill-react'>
           <FaReact className='skill-icon skill-icon__react' />
           <p className='skill-name'>React</p>
         </div>
-        <div className='skill skill-redux'>
-          <SiRedux className='skill-icon skill-icon__redux' />
-          <p className='skill-name'>Redux</p>
+        <div className='skill skill-next'>
+          <SiNextdotjs className='skill-icon skill-icon__next' />
+          <p className='skill-name'>Next.js</p>
         </div>
         <div className='skill skill-node'>
           <FaNodeJs className='skill-icon skill-icon__node' />
           <p className='skill-name'>NodeJS</p>
         </div>
+      </div>
+      {/* ROW */}
+      <div className='skills-container'>
+
+        <div className='skill skill-redux'>
+          <SiRedux className='skill-icon skill-icon__redux' />
+          <p className='skill-name'>Redux</p>
+        </div>
         <div className='skill skill-express'>
           <SiExpress className='skill-icon skill-icon__express' />
           <p className='skill-name'>ExpressJS</p>
         </div>
-      </div>
-      {/* 2ND ROW */}
-      <div className='skills-container'>
         <div className='skill skill-postgre'>
           <SiPostgresql className='skill-icon skill-icon__postgre' />
           <p className='skill-name'>PostgreSQL</p>
@@ -80,6 +90,9 @@ const Skills = () => {
           <SiSequelize className='skill-icon skill-icon__sequelize' />
           <p className='skill-name'>Sequelize</p>
         </div>
+      </div>
+      {/* ROW */}
+      <div className='skills-container'>
         <div className='skill skill-api'>
           <AiFillApi className='skill-icon skill-icon__api' />
           <p className='skill-name'>API</p>
@@ -87,13 +100,6 @@ const Skills = () => {
         <div className='skill skill-ejs'>
           <BsCode className='skill-icon skill-icon__ejs' />
           <p className='skill-name'>EJS</p>
-        </div>
-      </div>
-      {/* 3RD ROW */}
-      <div className='skills-container'>
-        <div className='skill skill-next'>
-          <SiNextdotjs className='skill-icon skill-icon__next' />
-          <p className='skill-name'>Next.js</p>
         </div>
         <div className='skill skill-scss'>
           <FaSass className='skill-icon skill-icon__scss' />
@@ -103,6 +109,9 @@ const Skills = () => {
           <BsGit className='skill-icon skill-icon__git' />
           <p className='skill-name'>Git</p>
         </div>
+      </div>
+      {/* ROW */}
+      <div className='skills-container'>
         <div className='skill skill-github'>
           <AiFillGithub className='skill-icon skill-icon__github' />
           <p className='skill-name'>Github</p>
