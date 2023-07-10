@@ -32,8 +32,8 @@ const Projects = () => (
         <p className='card-reference'>Personal Side Project</p>
         <h3 className='card-title'>Currencies Converter</h3>
         <div className='card-tags'>
-          <div className='card-tag react'>React<FaReact /></div>
           <div className='card-tag typescript'>Typescript<SiTypescript /></div>
+          <div className='card-tag react'>React<FaReact /></div>
           <div className='card-tag ant'>Ant Design<SiAntdesign /></div>
 
         </div>
