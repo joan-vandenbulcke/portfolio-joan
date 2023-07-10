@@ -50,6 +50,10 @@
   background: url(https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
 }
 
+.converter {
+  background: url(https://images.unsplash.com/photo-1550565118-3a14e8d0386f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+}
+
 .card-image-container {
   position: relative;
   height: 12rem;
@@ -77,6 +81,13 @@
   position: absolute;
   top: -3rem;
   left: 2rem;
+}
+
+.converter-img {
+  width: 350px;
+  position: absolute;
+  top: -42px;
+  left: -18px;
 }
 
 .card-reference {
@@ -132,6 +143,15 @@
   background: #00d8ff;
 }
 
+.typescript {
+  background: #0066ff;
+  color: white;
+}
+
+.ant {
+  background:orange;
+}
+
 .scss {
   background: #f396c4;
 }
@@ -157,21 +177,7 @@
 }
 // ---------- FIN TAGS ----------
 
-.card-links__ghibli {
-  display: flex;
-  overflow: hidden;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-}
-
-.card-links__evas {
-  display: flex;
-  overflow: hidden;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-}
-
-.card-links__portfolio {
+.card-links {
   display: flex;
   overflow: hidden;
   border-bottom-left-radius: 1rem;
@@ -192,6 +198,12 @@
 
 .card-link__portfolio {
   background: #6600ff;
+  padding: 1rem;
+  transition: .3s;
+}
+
+.card-link__converter {
+  background: #cc8708;
   padding: 1rem;
   transition: .3s;
 }
