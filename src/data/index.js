@@ -1,8 +1,14 @@
 export default [
   {
+    title: 'Application developer designer',
+    school: "O'Clock",
+    text: 'Node.js, React, Docker, React Native, NoSQL and more...',
+    date: 'October 2023 to January 2025',
+  },
+  {
     title: 'Fullstack JS Web Developer',
     school: "O'Clock",
-    text: 'HTML, CSS, Javascript, ReactJS, Redux, NodeJS, PostreSQL and more... ',
+    text: 'HTML, CSS, Javascript, ReactJS, Redux, Node.js, PostreSQL and more... ',
     date: 'September 2022 to March 2023',
   },
   {
