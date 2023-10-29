@@ -17,33 +17,49 @@ const Works = () => {
           <button
             className={toggleState === 1 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(1)}
-          >EVAS
+          >THALES
           </button>
           <button
             className={toggleState === 2 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(2)}
-          >AKINAI
+          >EVAS
           </button>
           <button
             className={toggleState === 3 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(3)}
-          >Freelance
+          >AKINAI
           </button>
           <button
             className={toggleState === 4 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(4)}
-          >Escil
+          >Freelance
           </button>
           <button
             className={toggleState === 5 ? "tablist-item tablist-item--active" : "tablist-item"}
             onClick={() => toggleTab(5)}
+          >Escil
+          </button>
+          <button
+            className={toggleState === 6 ? "tablist-item tablist-item--active" : "tablist-item"}
+            onClick={() => toggleTab(6)}
           >CIC & Crédit Agricole
           </button>
         </div>
 
         <div className="content-tabs">
+
           <div
             className={toggleState === 1 ? "content active-content" : "content"}
+          >
+            <h3 className="tab-title">Web developer<span className='company-span'>@ THALES</span></h3>
+            <p className="tab-date">October 2023 to now</p>
+            <div className="tab-description">
+              {/* Missing UL */}
+            </div>
+          </div>
+
+          <div
+            className={toggleState === 2 ? "content active-content" : "content"}
           >
             <h3 className="tab-title">Front-end web developer <span className='company-span'>@ EVAS</span></h3>
             <p className="tab-date">February to March 2023</p>
@@ -59,7 +75,7 @@ const Works = () => {
           </div>
 
           <div
-            className={toggleState === 2 ? "content active-content" : "content"}
+            className={toggleState === 3 ? "content active-content" : "content"}
           >
             <h3 className="tab-title">Director and Marketing Manager<span className='company-span'>@ AKINAI</span></h3>
             <p className="tab-date">2020 to 2022</p>
@@ -77,7 +93,7 @@ const Works = () => {
           </div>
 
           <div
-            className={toggleState === 3 ? "content active-content" : "content"}
+            className={toggleState === 4 ? "content active-content" : "content"}
           >
             <h3 className="tab-title">Digital marketing freelance<span className='company-span'>@ Freelance</span></h3>
             <p className="tab-date">2019 to 2020</p>
@@ -90,7 +106,7 @@ const Works = () => {
           </div>
 
           <div
-            className={toggleState === 4 ? "content active-content" : "content"}
+            className={toggleState === 5 ? "content active-content" : "content"}
           >
             <h3 className="tab-title">Digital marketing manager<span className='company-span'>@ ESCIL</span></h3>
             <p className="tab-date">2017 to 2019</p>
@@ -104,10 +120,10 @@ const Works = () => {
           </div>
 
           <div
-            className={toggleState === 5 ? "content active-content" : "content"}
+            className={toggleState === 6 ? "content active-content" : "content"}
           >
             <h3 className="tab-title">Bank client advisor<span className='company-span'>@ CIC & Crédit Agricole</span></h3>
-            <p className="tab-date">2014 to 2016 (check dates)</p>
+            <p className="tab-date">2014 to 2016</p>
           </div>
         </div>
       </div>
