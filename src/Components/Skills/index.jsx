@@ -24,6 +24,7 @@ import { BsWordpress } from "react-icons/bs";
 import { FaListOl } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
+import { SiGreensock } from "react-icons/si";
 
 const Skills = () => {
 
@@ -105,18 +106,22 @@ const Skills = () => {
           <FaSass className='skill-icon skill-icon__scss' />
           <p className='skill-name'>SCSS</p>
         </div>
-        <div className='skill skill-git'>
-          <BsGit className='skill-icon skill-icon__git' />
-          <p className='skill-name'>Git</p>
+        <div className='skill skill-gsap'>
+          <SiGreensock className='skill-icon skill-icon__gsap' />
+          <p className='skill-name'>Greensock / GSAP</p>
         </div>
       </div>
       {/* ROW */}
-      <div className='skills-container'>
+      {/* <div className='skills-container__last'>
         <div className='skill skill-github'>
           <AiFillGithub className='skill-icon skill-icon__github' />
           <p className='skill-name'>Github</p>
         </div>
-      </div>
+        <div className='skill skill-git'>
+          <BsGit className='skill-icon skill-icon__git' />
+          <p className='skill-name'>Git</p>
+        </div>
+      </div> */}
       {/* OTHER SKILLS */}
       <h3 className='languages-title'>Sample of my Creation skills</h3>
       <div className='skills-container'>

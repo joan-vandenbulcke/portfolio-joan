@@ -18,7 +18,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.skills-container__last {
+  display: flex;
   margin-bottom: 5rem;
 }
 
@@ -98,6 +102,10 @@
 
 .skill-icon__scss:hover {
   color: rgb(255, 147, 165);
+}
+
+.skill-icon__gsap:hover {
+  color: rgb(78, 255, 80);
 }
 
 .skill-icon__git:hover {
