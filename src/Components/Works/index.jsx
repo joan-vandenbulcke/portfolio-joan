@@ -54,7 +54,11 @@ const Works = () => {
             <h3 className="tab-title">Web developer<span className='company-span'>@ THALES</span></h3>
             <p className="tab-date">October 2023 to now</p>
             <div className="tab-description">
-              {/* Missing UL */}
+              <ul className="tab-description__list">
+                <li className="tab-description__list--item">Feasibility study for a hybrid application project using two programming languages : C++ and Javascript</li>
+                <li className="tab-description__list--item">Integration testing of JavaScript modules in a Qt application.</li>
+                <li className="tab-description__list--item">Research and documentation on the technologies to be used.</li>
+              </ul>
             </div>
           </div>
 

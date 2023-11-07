@@ -3,6 +3,8 @@ import Evas from '../../assets/projects/evas.png';
 import Ghibli from '../../assets/projects/ghibli.png';
 import WebDev from '../../assets/projects/web-development.png';
 import Dollar from '../../assets/projects/dollar.png';
+import Video from '../../assets/projects/video.png';
+import VideoBG from '../../assets/projects/videobg.jpg';
 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import OpenInNewRoundedIcon from '@mui/icons-material/OpenInNewRounded';
@@ -15,6 +17,7 @@ import { SiPostgresql } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { SiAntdesign } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 
 const Projects = () => (
   <section id='projects' className="projects">
@@ -77,6 +80,35 @@ const Projects = () => (
           </a>
           <a href="https://evas-front.netlify.app/" target="_blank">
             <div className='card-link card-link__evas github'>
+              <OpenInNewRoundedIcon />
+              <p className='card-link__view--text'>View online</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      {/* ---------------------------------------------------------------- */}
+      {/* ---------------------------------------------------------------- */}
+      <div className="card-wrapper">
+        <div className='card-image-container video'>
+          <img className='video-img' src={Video} alt="logo netflix" />
+        </div>
+        <p className='card-reference'>Personal Side Project</p>
+        <h3 className='card-title'>Video Platform</h3>
+        <div className='card-tags'>
+          <div className='card-tag react'>React <FaReact /></div>
+          <div className='card-tag typescript'>Typescript <SiTypescript /></div>
+          <div className='card-tag next'>Next.js <SiNextdotjs /></div>
+        </div>
+        <p className='card-description'>I completed this personal project with the help of a YouTube tutorial that allowed me to practice React and learn the basics of TypeScript and Next.js.</p>
+        <div className='card-links__video card-links'>
+          <a className='blocked-link'>
+            <div className='card-link card-link__video view'>
+              <GitHubIcon />
+              <p className='card-link__view--text'>Github Repo</p>
+            </div>
+          </a>
+          <a href="https://video-platform-git-main-joan-vandenbulcke.vercel.app/" target="_blank">
+            <div className='card-link card-link__video github'>
               <OpenInNewRoundedIcon />
               <p className='card-link__view--text'>View online</p>
             </div>

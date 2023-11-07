@@ -26,10 +26,5 @@ export default [
     title: 'Bank Professional Bachelor',
     school: 'Université Lumière Lyon 2',
     date: '2015 - 2016',
-  },
-  {
-    title: 'Bac STG (Marketing) and Bank BTS',
-    school: 'Lycée Jean-Paul Sartre',
-    date: '2013 to 2015',
   }
 ];
