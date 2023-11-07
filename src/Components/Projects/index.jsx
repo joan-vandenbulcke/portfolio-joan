@@ -18,6 +18,7 @@ import { SiJavascript } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { SiAntdesign } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 
 const Projects = () => (
   <section id='projects' className="projects">
@@ -98,6 +99,7 @@ const Projects = () => (
           <div className='card-tag react'>React <FaReact /></div>
           <div className='card-tag typescript'>Typescript <SiTypescript /></div>
           <div className='card-tag next'>Next.js <SiNextdotjs /></div>
+          <div className='card-tag tailwind'>Tailwind <SiTailwindcss /></div>
         </div>
         <p className='card-description'>I completed this personal project with the help of a YouTube tutorial that allowed me to practice React and learn the basics of TypeScript and Next.js.</p>
         <div className='card-links__video card-links'>
