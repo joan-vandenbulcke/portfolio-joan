@@ -60,7 +60,7 @@ const Projects = () => (
       {/* ---------------------------------------------------------------- */}
       <div className="card-wrapper">
         <div className='card-image-container evas'>
-          <img className='evas-img' src={Evas} alt="personnages ghibli" />
+          <img className='evas-img' src={Evas} alt="evas" />
         </div>
         <p className='card-reference'>School Project / Real company</p>
         <h3 className='card-title'>EVAS Website</h3>
@@ -133,7 +133,7 @@ const Projects = () => (
         </div>
         <p className='card-description'>This website lists the different productions of Studio Ghibli in a simple presentation. It is a side project I created to practice using NodeJS, Express, and rendering data in EJS.</p>
         <div className='card-links__ghibli card-links'>
-          <a href="https://github.com/joan-vandenbulcke/Ghibliotheque" target="_blank">
+          <a className='blocked-link'>
             <div className='card-link card-link__ghibli view'>
               <GitHubIcon />
               <p className='card-link__view--text'>Github Repo</p>
