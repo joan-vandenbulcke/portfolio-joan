@@ -56,8 +56,8 @@ const Works = () => {
             <div className="tab-description">
               <ul className="tab-description__list">
                 <li className="tab-description__list--item">Feasibility study for a hybrid application project using two programming languages : C++ and Javascript</li>
-                <li className="tab-description__list--item">Integration testing of JavaScript modules in a Qt application.</li>
-                <li className="tab-description__list--item">Research and documentation on the technologies to be used.</li>
+                <li className="tab-description__list--item">Integration testing of JavaScript modules in a Qt application</li>
+                <li className="tab-description__list--item">Research and documentation on the technologies to be used</li>
               </ul>
             </div>
           </div>
